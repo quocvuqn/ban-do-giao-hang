@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_62cc8266e2bfbe8d37eff70cc9e4f62c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_62cc8266e2bfbe8d37eff70cc9e4f62c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_62cc8266e2bfbe8d37eff70cc9e4f62c = L.map(
+                "map_62cc8266e2bfbe8d37eff70cc9e4f62c",
+                {
+                    center: [10.7761, 106.6917],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7e6a33541595f20af57925571239a0c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var marker_efca400bcf75b050ec8a21ba8ccf14c4 = L.marker(
+                [10.7761, 106.6917],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_af568b6fb377c547c329258a37e4d8ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_efca400bcf75b050ec8a21ba8ccf14c4.setIcon(icon_af568b6fb377c547c329258a37e4d8ec);
+        
+    
+        var popup_d5b6e084be691ed1cc7230f403039c10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_461d762da22d98168a517b01d3f04f2a = $(`<div id="html_461d762da22d98168a517b01d3f04f2a" style="width: 100.0%; height: 100.0%;">Kho hàng (180 Nguyễn Thị Minh Khai)</div>`)[0];
+            popup_d5b6e084be691ed1cc7230f403039c10.setContent(html_461d762da22d98168a517b01d3f04f2a);
+        
+
+        marker_efca400bcf75b050ec8a21ba8ccf14c4.bindPopup(popup_d5b6e084be691ed1cc7230f403039c10)
+        ;
+
+        
+    
+    
+            var marker_fdc73dd6c8a0add337fe57d310f3d103 = L.marker(
+                [10.7738, 106.7037],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_1ef953165074fd1665c8453681b8a75f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdc73dd6c8a0add337fe57d310f3d103.setIcon(icon_1ef953165074fd1665c8453681b8a75f);
+        
+    
+        var popup_e23ab0bb32421be5b47046527613a0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b974d91b9a288f071a0b381380ea0036 = $(`<div id="html_b974d91b9a288f071a0b381380ea0036" style="width: 100.0%; height: 100.0%;">285 CMT8, Q.10</div>`)[0];
+            popup_e23ab0bb32421be5b47046527613a0c4.setContent(html_b974d91b9a288f071a0b381380ea0036);
+        
+
+        marker_fdc73dd6c8a0add337fe57d310f3d103.bindPopup(popup_e23ab0bb32421be5b47046527613a0c4)
+        ;
+
+        
+    
+    
+            var poly_line_6a7bd02638a2479a544f7c39c58a5713 = L.polyline(
+                [[10.7761, 106.6917], [10.7738, 106.7037]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var marker_18ff54d3b9933a40010a049f333d4b26 = L.marker(
+                [10.7753, 106.7026],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_6768022fdc8a90407cb0aefc5203f7be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18ff54d3b9933a40010a049f333d4b26.setIcon(icon_6768022fdc8a90407cb0aefc5203f7be);
+        
+    
+        var popup_725f815974c3bf4559cec49dbac6e891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84680d8fbc6d8d7cddd53aea24f2be8d = $(`<div id="html_84680d8fbc6d8d7cddd53aea24f2be8d" style="width: 100.0%; height: 100.0%;">1 Nguyễn Huệ, Q.1</div>`)[0];
+            popup_725f815974c3bf4559cec49dbac6e891.setContent(html_84680d8fbc6d8d7cddd53aea24f2be8d);
+        
+
+        marker_18ff54d3b9933a40010a049f333d4b26.bindPopup(popup_725f815974c3bf4559cec49dbac6e891)
+        ;
+
+        
+    
+    
+            var poly_line_6cbddb11d534ddb43bd1eb0a210d92e4 = L.polyline(
+                [[10.7761, 106.6917], [10.7753, 106.7026]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var marker_9d85c8c7d94d1187cf7b225aecf11b0b = L.marker(
+                [10.744, 106.64],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_683870371733cd30ecb6c9159f2aa0a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d85c8c7d94d1187cf7b225aecf11b0b.setIcon(icon_683870371733cd30ecb6c9159f2aa0a4);
+        
+    
+        var popup_87838ed8a65883f3ad38045197d547f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_454a2e6b8ba0f7958a9e9b12dbcce9ee = $(`<div id="html_454a2e6b8ba0f7958a9e9b12dbcce9ee" style="width: 100.0%; height: 100.0%;">70 Lữ Gia, Q.11</div>`)[0];
+            popup_87838ed8a65883f3ad38045197d547f6.setContent(html_454a2e6b8ba0f7958a9e9b12dbcce9ee);
+        
+
+        marker_9d85c8c7d94d1187cf7b225aecf11b0b.bindPopup(popup_87838ed8a65883f3ad38045197d547f6)
+        ;
+
+        
+    
+    
+            var poly_line_064b1a6f16fd3c4227f92cd404677999 = L.polyline(
+                [[10.7761, 106.6917], [10.744, 106.64]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var marker_c57d4103588ce942d080bb0f12550d32 = L.marker(
+                [10.787, 106.752],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_233b4358ed1b6ab74dc94d7ed8d2be64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c57d4103588ce942d080bb0f12550d32.setIcon(icon_233b4358ed1b6ab74dc94d7ed8d2be64);
+        
+    
+        var popup_b48cd28f47e9116bb15c7b12c9284b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ffb38a53ec227185e07facbdae44600 = $(`<div id="html_2ffb38a53ec227185e07facbdae44600" style="width: 100.0%; height: 100.0%;">12 Trần Não, Thủ Đức</div>`)[0];
+            popup_b48cd28f47e9116bb15c7b12c9284b8c.setContent(html_2ffb38a53ec227185e07facbdae44600);
+        
+
+        marker_c57d4103588ce942d080bb0f12550d32.bindPopup(popup_b48cd28f47e9116bb15c7b12c9284b8c)
+        ;
+
+        
+    
+    
+            var poly_line_ec52ba3849e1b486d6a7df76284e48e8 = L.polyline(
+                [[10.7761, 106.6917], [10.787, 106.752]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var marker_a463a6f5cf2312bccee91058755aa151 = L.marker(
+                [10.7287, 106.6912],
+                {}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+    
+            var icon_c9a2bf984ab711fed010ca88bfd7ebe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a463a6f5cf2312bccee91058755aa151.setIcon(icon_c9a2bf984ab711fed010ca88bfd7ebe4);
+        
+    
+        var popup_286bbd0feaeedaa7be8a2c72e3d2075b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_462981d4ebfa2886cca6758dadadaae0 = $(`<div id="html_462981d4ebfa2886cca6758dadadaae0" style="width: 100.0%; height: 100.0%;">20 Nguyễn Văn Linh, Q.7</div>`)[0];
+            popup_286bbd0feaeedaa7be8a2c72e3d2075b.setContent(html_462981d4ebfa2886cca6758dadadaae0);
+        
+
+        marker_a463a6f5cf2312bccee91058755aa151.bindPopup(popup_286bbd0feaeedaa7be8a2c72e3d2075b)
+        ;
+
+        
+    
+    
+            var poly_line_c3a276fc0b1aaeed03277616c77a5253 = L.polyline(
+                [[10.7761, 106.6917], [10.7287, 106.6912]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_62cc8266e2bfbe8d37eff70cc9e4f62c);
+        
+</script>
+</html>
